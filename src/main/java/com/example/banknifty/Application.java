@@ -25,9 +25,10 @@ public class Application {
             HttpUriRequest request = RequestBuilder.get()
                     .setUri("https://www.nseindia.com/api/equity-stockIndices?index=SECURITIES%20IN%20F%26O")
                    // .setHeader(HttpHeaders.ACCEPT, "application/json")
-                    .setHeader("cookie", "ak_bmsc=6227CBA8CB9D2C7770611F0251CE9034~000000000000000000000000000000~YAAQS3xBF3XF73l+AQAA6vp3gQ4t25fdZgL29F/A9GTrx7Gq9lgOGoHf8D139U1sJip3MOTJB0el838nCq5VaJg+tVAer9lGTcxEey3MJmCVXyQwS6kUOt6Z4SuQakr51AdEksMcKFKkYAsTilwoaQZoYny6+3cmDMnkuvFCmt42GvsgV0EIVm06NKvBQXf7nJyIaxBoBgYcFjUMSLTQ2b9BwVMsO8+cAs778eJzMwRCEuhtHxavnDWCed4i/ePASQsvaS37danBD1erf+oZXTSa4BR7nfjzEOeBoZDS260q4tWzeWe/MrcDoU/Cp3DRR4J82QHcQtTTzMjZ+xiMqVqg6zbepitYUyoFS+thxabanJwIYd2WDx1oN5VX5P/j")
-                   // .setHeader("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57")
-                   // .setHeader("accept-encoding", "gzip, deflate, br")
+                    .setHeader("cookie", "D93B5CB3B8D4DCB97941A7E6FF4C004B~TA97tTDJ04+p7l0CmeA+BzkO3WVW1aKMBaml6SLoRcOO+Lc893UmoNbjm17qTn+stN840ga2IKed5ujj3q4ygQGJ4ncal6fnO1rxjQujFbhjmJ9qg5+SkxGpcM0eXu9p7FvDGtnY6XwgKfYzKH8TyhTyfYK6mOrImjrXeHhwPug=")
+                    .setHeader("user-agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36 Edg/96.0.1054.57")
+                    .setHeader("accept-encoding", "gzip, deflate, br")
+                    .setHeader("accept-language","en-US,en;q=0.9")
                    // .setHeader(HttpHeaders.CONTENT_TYPE,"application/json; charset=utf-8")
                    // .setHeader(HttpHeaders.CONTENT_ENCODING,"gzip")
 
